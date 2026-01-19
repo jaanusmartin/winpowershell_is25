@@ -1,4 +1,5 @@
-﻿
+﻿# skript mis loendab kõik töötavad ja seisvad tenused ja väljastab selle arvu
+# skriptis kasutatakse parameetreid
 
 function loenda-teenused
     {
