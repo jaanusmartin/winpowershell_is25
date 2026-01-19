@@ -1,4 +1,7 @@
-﻿# skript mis 
+﻿# skript kus saab arvutada kasutaja sisestatud andmete alusel 
+# ruudu, ristküliku, ringi ja kolmnurga pindala
+# skript koosneb funktsioonidest kus iga välja kutsutud funktsioon on kas valikute menüü või 
+# leht kus kasutaja saab sisestada kujundi mõõtmed ja kus peale seda toimub pindala arvutamine
 
 function peamenuu
     {
