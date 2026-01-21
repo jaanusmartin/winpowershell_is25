@@ -71,6 +71,6 @@ else
                         Write-Host "Tekkis ootamatu viga: $($_.Exception.Message)" -ForegroundColor Red
                      }
 
-                Write-Host "Süsteemi veakood: $veakood" -ForegroundColor Red
+                Write-Host "Süsteemi veakood:  $veakood" -ForegroundColor Red
              }
      }
