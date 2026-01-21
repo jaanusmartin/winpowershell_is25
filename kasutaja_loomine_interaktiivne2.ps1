@@ -2,7 +2,7 @@
 # kasutaja sisestab nime ja perekonnanime skripti jooksutamise ajal
 
 # küsime kasutaja nime ja perekonnanime
-Write-Host "`nSee skript loob kautajakonto sisestatud nime alusel.`n" -ForegroundColor Yellow
+Write-Host "`nSee skript loob kasutajakonto sisestatud nime alusel.`n" -ForegroundColor Yellow
 
 [string]$eesnimi = Read-Host "Sisesta oma eesnimi"
 [string]$perenimi = Read-Host "Sisesta oma perkonnanimi"
@@ -47,7 +47,7 @@ else
                 # võtame välja PowerShelli vea ID
                 $veakood = $viga.FullyQualifiedErrorID
                 # kuvame veateate koos põhjusega
-                Write-Host "`nKasutja loomine ei õnnestunud!" -ForegroundColor Red
+                Write-Host "`nKasutaja loomine ei õnnestunud!" -ForegroundColor Red
                 
                 # kontrollime vea põhjust
                 if( $veakood -like "*UserExists*" )
