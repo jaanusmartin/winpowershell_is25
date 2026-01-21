@@ -14,7 +14,7 @@ if( $eesnimi.Length -eq "0" -or $perenimi.Length -eq "0" )
         Write-host "`n`tViga! `tPalun sisesta nii eesnimi kui ka perekonnanimi!`n" -ForegroundColor Red
         Write-Host "`tKui soovid skriptist väljuda vajuta crtl+c" -ForegroundColor Red
          
-        .\kasutaja_loomine_interaktiivne.ps1
+        .\kasutaja_loomine_interaktiivne2.ps1
      }
 else
     {
